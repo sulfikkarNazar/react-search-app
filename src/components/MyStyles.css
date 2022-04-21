@@ -1,0 +1,116 @@
+
+body {
+    background-image: linear-gradient(to right, rgb(61, 193, 236), yellow);
+}
+
+.fa {
+    font-family: FontAwesome !important;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.search-employee {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.input-employee {
+    border: none;
+    border:solid 1px #ccc;
+    border-radius: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.employee-list {
+    margin-top: 20px;
+}
+
+.button-solid {
+    border: none;
+}
+
+button-solid:focus {
+    border: none;
+    outline: none;
+}
+
+.my-icon {
+    color: rgb(20, 152, 240);
+    font-size: 1.5em;
+}
+
+.searchIcon {
+    height: 60px;
+    width: 50px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+
+.id-card {
+    flex-basis: 100%;
+    max-width: 20em;
+    margin: auto;
+    color: #fff;
+    padding: 1em;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+}
+
+.profile-row {
+    display: flex;
+}
+
+.dp {
+    flex-basis: 15.3%;
+    position: relative;
+    margin: 10px 15px 20px 0px;
+    align-self: center;
+}
+.profile-row .desc {
+    flex-basis: 66.6%;
+}
+
+.profile-row .dp img {
+    max-width: 100%;
+    border-radius: 50%;
+    display: block;
+}
+
+.profile-row .desc {
+    padding: 1em;
+}
+
+.profile-row .desc {
+    font-family: 'Orbitron', sans-serif;
+    color: #747c7c;
+    letter-spacing: 1px;
+}
+
+.profile-row .desc strong {
+    color: black;
+}
+
+.profile-row .desc p {
+    margin-bottom: 0px;
+}
+
+.filter-btn {
+    width: 50px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+}
+
+.filter-btn img{
+    width: 35px;
+    height: 35px;
+    filter: invert(46%) sepia(48%) saturate(2873%) hue-rotate(163deg) brightness(96%) contrast(101%);
+}
